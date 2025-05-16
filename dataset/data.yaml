@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images  # nếu không có thư mục test thì có thể xóa dòng này
+
+nc: 70
+names: ['banhtrang', 'bun', 'cachien', 'cacom', 'cahoi', 'caichua', 'cailuoc', 'caingot', 'caithia', 'caixao', 'cakho', 'canhbau', 'canhbido', 'canhbixanh', 'canhcai', 'canhcaitrang', 'canhchua', 'canhcuden', 'canhdudu', 'canhkhoaimo', 'canhkhoqua', 'canhmay', 'canhmuop', 'canhrau', 'catim', 'chaca', 'chagiochien', 'chalua', 'chatrung', 'cucaido', 'cukieu', 'daubap', 'dauhu', 'dauhuchien', 'dauhusotca', 'dauphong', 'dauque', 'dualeo', 'giaxao', 'giocha', 'giothu', 'khoailang', 'khoailuoc', 'kimchi', 'lapxuong', 'muopkho', 'muoptom', 'raumuongxao', 'rauxao', 'rice', 'salad', 'san', 'suhao', 'suluoc', 'suon', 'suonram', 'teprim', 'thitcathom', 'thitkho', 'thitkhogung', 'thitkhotrung', 'thitluoc', 'thitram', 'tomramthit', 'trungca', 'trungchien', 'trungluoc', 'trungxao', 'vung', 'xucxichchien']
+
+roboflow:
+  workspace: twobeez
+  project: ai-challenge-1fogy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/twobeez/ai-challenge-1fogy/dataset/1
